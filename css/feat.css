@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+.header{
+    width: 100%; 
+}
+
+.scl{
+    height: 17.5em;
+    width: 34em;
+    padding-top: 2.3em;
+}
+.logo{
+    height: 17.5em;
+    width: 34em;   
+}
+
+/*----nav*/
+
+.navegacion{
+    height: 10em;
+    width: 100%;
+    background-color: #000F84;
+    display: flex;
+    padding-left: 21em;
+}
+.navegacion ul{
+    list-style: none;
+   
+}
+.menu > li{
+    position: relative;
+    display: inline-block;  
+    margin-left: 3em;
+    margin-top: 1em;  
+}
+.menu > li > a{
+    display:block;
+    margin-top: 20px;
+    padding-left:25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 3em;
+}
+.menu li a:hover{
+    color: #FF7700;
+    font-size: 3em;
+    transition: all.2s;
+}
+.point{
+    height: 2em;
+    width: 2em;
+    position: relative;
+    margin-left: 0.7em;     
+}
+
+/*----submenu*/
+
+.grades:hover .submenu{
+    display: block;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    background:#000F84 ;
+    padding-top: 2.5em;
+    margin-left: 1em;
+    width: 120%;
+    text-align: center;
+}
+.submenu li a{
+    display: block;
+    padding: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+}
+.submenu li a:hover{
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+.manes:hover .masmenu{
+    display: block;
+}
+.masmenu{
+    display: none;
+    position: absolute;
+    background: #000F84;
+    padding-top: 2.8em;
+    margin-left: 1em;
+    width: 130%;
+}
+.masmenu li a{
+    display: block;
+    padding: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+}
+.masmenu li a:hover{
+    font-size: 1.2em;
+}
+
