@@ -17,9 +17,10 @@
 .logo{
     height: 17.5em;
     width: 34em;   
+    position: absolute;
 }
 
-/*----nav*/
+/*----navegacion*/
 
 .navegacion{
     height: 10em;
@@ -53,12 +54,12 @@
 }
 .point{
     height: 2em;
-    width: 2em;
+    width: 3em;
     position: relative;
-    margin-left: 0.7em;     
+    padding-left: 1em;     
 }
 
-/*----submenu*/
+/*----submenus*/
 
 .grades:hover .submenu{
     display: block;
@@ -105,5 +106,27 @@
 }
 .masmenu li a:hover{
     font-size: 1.2em;
+}
+.banner{
+    height: 75em;
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../ima/grduandos.jpg);
+}
+.medium{
+    position: relative;
+    height: 12.5em;
+    width: 25em;
+    float: right;
+    margin-top: 55em;
+    margin-right: 10em;
+    
+}
+.logi{
+    height: 15em;
+    width: 25em;
+    
 }
 
